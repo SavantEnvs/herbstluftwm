@@ -1,0 +1,10 @@
+
+    // for elements that match all the classes
+    {matches_all_classes} {{
+        border-top-width: 4px;
+    }}
+    // for elements that match one of the classes
+    {matches_some_class} {{
+        border-left-width: 7px;
+    }}
+    

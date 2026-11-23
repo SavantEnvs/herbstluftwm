@@ -1,0 +1,4 @@
+complete	3	merge_tag
+complete	1	set_attr	theme.
+complete	0
+complete_shell	2	chain	,	set

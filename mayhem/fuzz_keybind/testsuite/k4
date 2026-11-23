@@ -1,0 +1,8 @@
+Super-XF86AudioRaiseVolume
+chain
+,
+focus
+left
+,
+use_index
++1

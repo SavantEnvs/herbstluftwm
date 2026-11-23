@@ -1,0 +1,12 @@
+attr	theme.background_color	#141414
+set	window_gap	0
+set	frame_padding	0
+set	smart_window_surroundings	off
+set	smart_frame_surroundings	on
+set	mouse_recenter_gap	0
+unrule	-F
+rule	focus=on	#	normally	focus	new	clients
+rule	floatplacement=smart
+rule	windowtype~_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)	floating=on
+rule	windowtype=_NET_WM_WINDOW_TYPE_DIALOG	focus=on
+rule	windowtype~_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)	manage=off

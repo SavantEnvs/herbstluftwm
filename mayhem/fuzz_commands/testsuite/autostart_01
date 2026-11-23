@@ -1,0 +1,12 @@
+set	frame_transparent_width	5
+set	frame_gap	4
+attr	theme.title_height	15
+attr	theme.title_when	always
+attr	theme.title_font	Dejavu Sans:pixelsize=12	#	example	using	Xft
+attr	theme.active.color	#345F0Cef
+attr	theme.title_color	#ffffff
+attr	theme.normal.color	#323232dd
+attr	theme.urgent.color	#7811A1dd
+attr	theme.tab_color	#1F1F1Fdd
+attr	theme.active.tab_color	#2B4F0Add
+attr	theme.active.tab_outer_color	#6C8257dd

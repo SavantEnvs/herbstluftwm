@@ -1,0 +1,14 @@
+add	a
+add	b
+use	b
+move_index	0
+set_monitors	400x600+0+0	400x600+400+0
+add_monitor	200x200+10+10	a
+pad	0	10	10	10	10
+detect_monitors
+list_monitors
+rename	b	c
+merge_tag	c	a
+tag_status
+lock
+unlock

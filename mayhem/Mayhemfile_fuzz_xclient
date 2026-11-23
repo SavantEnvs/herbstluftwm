@@ -1,0 +1,9 @@
+project: savantenvs/herbstluftwm
+target: fuzz_xclient
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_xclient/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_xclient
+    libfuzzer: true
+    timeout: 10

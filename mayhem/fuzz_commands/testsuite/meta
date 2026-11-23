@@ -1,0 +1,13 @@
+chain	,	add	foo	,	use	foo	,	merge_tag	foo
+substitute	X	tags.count	echo	X
+sprintf	S	%s-%c	tags.focus.name	x	echo	S
+foreach	C	clients.	echo	C
+and	.	compare	tags.count	>	0	.	true
+or	.	false	.	attr	tags.focus
+try	false
+silent	false
+new_attr	string	my_foo	bar
+attr	my_foo
+get_attr	settings.frame_gap
+mktemp	int	I	set_attr	I	5
+attr_type	tags.count

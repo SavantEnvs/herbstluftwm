@@ -1,0 +1,3 @@
+rule	fixedsize	floating=on
+set	tree_style	╾│ ├└╼─┐
+unlock
